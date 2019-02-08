@@ -71,8 +71,8 @@ class Auth extends Component {
         const controlsArray = [];
         for (let key in this.state.controls) {
             controlsArray.push({
-                id: key,//keys
-                config: this.state.controls[key]//values
+                id: key,//keys: email/ password
+                config: this.state.controls[key]//values: elType, elConfig, Value, Valid, touched
             })
         }
 
